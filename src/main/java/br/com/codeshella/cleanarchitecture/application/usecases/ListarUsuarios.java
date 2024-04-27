@@ -5,14 +5,14 @@ import br.com.codeshella.cleanarchitecture.domain.entities.usuario.Usuario;
 
 import java.util.List;
 
-public class ListarUsuario {
+public class ListarUsuarios {
     private final RepositorioDeUsuario repositorio;
 
-    public ListarUsuario(RepositorioDeUsuario repositorio) {
+    public ListarUsuarios(RepositorioDeUsuario repositorio) {
         this.repositorio = repositorio;
     }
 
-    public List<Usuario> obterUsuarios(){
+    public List<Usuario> obterTodosUsuarios(){
         return this.repositorio.listarTodos();
     }
 

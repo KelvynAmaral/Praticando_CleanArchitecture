@@ -9,5 +9,7 @@ public interface RepositorioDeUsuario {
 
     List<Usuario> listarTodos();
 
-    Usuario alteraUsuario(String cpf, String email);
+    Usuario alteraUsuario(String cpf, Usuario usuario);
+
+    void excluiUsuario(String cpf);
 }

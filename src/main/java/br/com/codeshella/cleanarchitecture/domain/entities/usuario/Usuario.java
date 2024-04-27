@@ -4,6 +4,7 @@ import br.com.codeshella.cleanarchitecture.domain.Endereco;
 
 import java.time.LocalDate;
 
+
 public class Usuario {
     private String cpf;
     private String nome;
