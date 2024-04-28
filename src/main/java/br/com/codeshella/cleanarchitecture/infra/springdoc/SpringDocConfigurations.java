@@ -1,4 +1,4 @@
-package br.com.codeshella.cleanarchitecture.config.springdoc;
+package br.com.codeshella.cleanarchitecture.infra.springdoc;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
