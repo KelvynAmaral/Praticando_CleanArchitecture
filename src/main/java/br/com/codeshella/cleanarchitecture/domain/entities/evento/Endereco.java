@@ -1,4 +1,4 @@
-package br.com.codeshella.cleanarchitecture.domain;
+package br.com.codeshella.cleanarchitecture.domain.entities.evento;
 
 public class Endereco {
 

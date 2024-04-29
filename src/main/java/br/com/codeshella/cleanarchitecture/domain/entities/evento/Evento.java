@@ -1,6 +1,5 @@
 package br.com.codeshella.cleanarchitecture.domain.entities.evento;
 
-import br.com.codeshella.cleanarchitecture.domain.Endereco;
 import br.com.codeshella.cleanarchitecture.domain.entities.ingresso.TipoIngresso;
 
 import java.time.LocalDateTime;
@@ -30,5 +29,26 @@ public class Evento {
     private void gerarIdentificadorUnico() {
         this.uuid = UUID.randomUUID();
     }
+    public void incluiNovoTipoIngressoAoEvento(TipoIngresso tipoIngresso) {this.tipoIngressos.add(tipoIngresso);}
+    //public void aumentarQuantidadeIngressosDisponiveis(TipoIngresso tipoIngresso, Integer quantidade) {///implementação}
 
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public LocalDateTime getData() {
+        return data;
+    }
+
+    public List<TipoIngresso> getTipoIngressos() {
+        return tipoIngressos;
+    }
 }

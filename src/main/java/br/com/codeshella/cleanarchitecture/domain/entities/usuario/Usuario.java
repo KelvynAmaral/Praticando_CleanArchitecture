@@ -1,6 +1,6 @@
 package br.com.codeshella.cleanarchitecture.domain.entities.usuario;
 
-import br.com.codeshella.cleanarchitecture.domain.Endereco;
+import br.com.codeshella.cleanarchitecture.domain.entities.evento.Endereco;
 
 import java.time.LocalDate;
 
